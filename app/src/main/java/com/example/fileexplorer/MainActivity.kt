@@ -123,14 +123,14 @@ class MainActivity : AppCompatActivity() {
         println("In Activity Restart")
     }
 
-//    override fun onConfigurationChanged(newConfig: Configuration) {
-//        super.onConfigurationChanged(newConfig)
-//        if(newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
-//            Toast.makeText(this@MainActivity,"Potrait Screen",Toast.LENGTH_SHORT).show()
-//        }
-//        else if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
-//            Toast.makeText(this@MainActivity,"Landscape Screen",Toast.LENGTH_SHORT).show()
-//        }
-//
-//    }
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        if(newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
+            Toast.makeText(this@MainActivity,"Potrait Screen",Toast.LENGTH_SHORT).show()
+        }
+        else if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
+            Toast.makeText(this@MainActivity,"Landscape Screen",Toast.LENGTH_SHORT).show()
+        }
+
+    }
 }
