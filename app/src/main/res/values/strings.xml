@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">File Explorer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="videos">Videos</string>
+    <string name="images">Images</string>
+    <string name="downloads">Downloads</string>
+    <string name="more">More</string>
+    <string name="files">Files</string>
+    <string name="music">Music</string>
+    <string name="screenshot">ScreenShot</string>
+    <string name="bluetooth">BLUETOOTH</string>
+    <string name="archive">ARCHIVE</string>
+    <string name="apk">APK</string>
+    <string name="screenshots">ScreenShots</string>
+    <string name="archives">Archives</string>
+</resources>
